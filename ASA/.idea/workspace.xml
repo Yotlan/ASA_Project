@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd9a755-3bca-4eca-92cf-ab5094aff20d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/omt-odt-plugin-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/omt-odt-plugin-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Attachement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Binding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur_complexe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur_simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Glue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant_complexe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant_simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IConnecteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Port.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Configuration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,13 +45,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
