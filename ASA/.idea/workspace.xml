@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd9a755-3bca-4eca-92cf-ab5094aff20d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Attachement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Binding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur_complexe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur_simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Glue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant_complexe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant_simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IConnecteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Port.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/RPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ServerDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant_complexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant_complexe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant_simple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
