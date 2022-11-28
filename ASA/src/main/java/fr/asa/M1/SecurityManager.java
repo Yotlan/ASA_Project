@@ -8,7 +8,22 @@ import fr.asa.M2.Service;
 import java.util.List;
 
 public class SecurityManager extends Composant_simple implements IComposant {
-    public SecurityManager(List<Port> ports, List<Service> services) {
+    public SecurityManager(List<Port> ports, List<Service> services) throws Exception {
         super(ports, services);
+
+        //check ports of securityManager
+        boolean check_secuAuth=false;
+        boolean check_checkquery=false;
+        for (Port port : ports){
+            if (port instanceof SecurityAuth){
+                check_secuAuth=true;
+            }
+            if (port instanceof CheckQuery){
+                check_checkquery=true;
+            }
+        }
+        if (!(check_secuAuth && check_checkquery)){
+            throw new Exception("SecurityManager error : ports error : need have SecurityAuth and CheckQuery");
+        }
     }
 }

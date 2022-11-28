@@ -10,4 +10,12 @@ public class Composant_simple implements IComposant {
         this.ports=ports;
         this.services=services;
     }
+
+    public List<Port> getPorts() {
+        return ports;
+    }
+
+    public List<Service> getServices() {
+        return services;
+    }
 }
