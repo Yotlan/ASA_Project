@@ -22,4 +22,8 @@ public class Composant_complexe implements IComposant {
         }
         return ports;
     }
+
+    public Configuration getConfig() {
+        return this.IComposants.get(0).getConfig();
+    }
 }

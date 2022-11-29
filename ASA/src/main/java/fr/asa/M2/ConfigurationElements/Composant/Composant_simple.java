@@ -30,4 +30,8 @@ public class Composant_simple implements IComposant {
     public List<Service> getServices() {
         return services;
     }
+
+    public Configuration getConfig() {
+        return this.currentConfig;
+    }
 }
