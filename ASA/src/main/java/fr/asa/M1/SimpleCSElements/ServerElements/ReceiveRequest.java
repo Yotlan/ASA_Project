@@ -5,8 +5,8 @@ import fr.asa.M2.ConfigurationElements.Port;
 
 public class ReceiveRequest extends Port {
 
-    public ReceiveRequest(Server server) throws Exception {
-        super("requis",server);
+    public ReceiveRequest() throws Exception {
+        super("requis");
 
     }
 }

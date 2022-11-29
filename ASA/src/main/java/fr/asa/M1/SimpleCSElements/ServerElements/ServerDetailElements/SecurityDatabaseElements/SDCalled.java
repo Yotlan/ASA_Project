@@ -6,7 +6,7 @@ import fr.asa.M2.ConfigurationElements.Connecteur.Role;
 public class SDCalled extends Role {
 
 
-    public SDCalled(String type, SecurityDatabase currentConnect) throws Exception {
-        super(type, currentConnect);
+    public SDCalled() throws Exception {
+        super("fournis");
     }
 }

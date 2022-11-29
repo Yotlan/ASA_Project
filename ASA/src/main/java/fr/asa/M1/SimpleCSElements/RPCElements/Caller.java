@@ -6,7 +6,7 @@ import fr.asa.M2.ConfigurationElements.Connecteur.Role;
 public class Caller extends Role {
 
 
-    public Caller(RPC currentConnect) throws Exception {
-        super("requis", currentConnect);
+    public Caller() throws Exception {
+        super("requis");
     }
 }

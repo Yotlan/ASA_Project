@@ -6,7 +6,7 @@ import fr.asa.M2.ConfigurationElements.Connecteur.Role;
 public class CSCaller extends Role {
 
 
-    public CSCaller(String type, ConnectionSecurity currentConnect) throws Exception {
-        super(type, currentConnect);
+    public CSCaller() throws Exception {
+        super("requis");
     }
 }

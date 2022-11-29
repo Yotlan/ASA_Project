@@ -6,7 +6,7 @@ import fr.asa.M2.ConfigurationElements.Connecteur.Role;
 public class SDCaller extends Role {
 
 
-    public SDCaller(String type, SecurityDatabase currentConnect) throws Exception {
-        super(type, currentConnect);
+    public SDCaller() throws Exception {
+        super("requis");
     }
 }

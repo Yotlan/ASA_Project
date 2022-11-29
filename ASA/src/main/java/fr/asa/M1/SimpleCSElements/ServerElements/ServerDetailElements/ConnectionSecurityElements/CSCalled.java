@@ -6,7 +6,7 @@ import fr.asa.M2.ConfigurationElements.Connecteur.Role;
 public class CSCalled extends Role {
 
 
-    public CSCalled(String type, ConnectionSecurity currentConnect) throws Exception {
-        super(type, currentConnect);
+    public CSCalled() throws Exception {
+        super("fournis");
     }
 }

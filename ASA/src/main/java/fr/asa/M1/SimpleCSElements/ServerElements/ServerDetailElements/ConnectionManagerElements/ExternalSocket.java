@@ -4,7 +4,7 @@ import fr.asa.M1.SimpleCSElements.ServerElements.ServerDetailElements.Connection
 import fr.asa.M2.ConfigurationElements.Port;
 
 public class ExternalSocket extends Port {
-    public ExternalSocket(String type, ConnectionManager currentComp) throws Exception {
-        super(type, currentComp);
+    public ExternalSocket() throws Exception {
+        super("fournis");
     }
 }

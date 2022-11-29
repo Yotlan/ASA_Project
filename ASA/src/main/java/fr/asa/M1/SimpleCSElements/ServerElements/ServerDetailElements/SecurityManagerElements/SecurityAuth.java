@@ -4,7 +4,7 @@ import fr.asa.M1.SimpleCSElements.ServerElements.ServerDetailElements.SecurityMa
 import fr.asa.M2.ConfigurationElements.Port;
 
 public class SecurityAuth extends Port {
-    public SecurityAuth(String type, SecurityManager currentComp) throws Exception {
-        super(type, currentComp);
+    public SecurityAuth() throws Exception {
+        super("fournis");
     }
 }
