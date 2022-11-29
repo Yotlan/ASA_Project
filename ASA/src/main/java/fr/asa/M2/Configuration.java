@@ -1,5 +1,8 @@
 package fr.asa.M2;
 
+import fr.asa.M2.Composant.IComposant;
+import fr.asa.M2.Connecteur.IConnecteur;
+
 import java.util.ArrayList;
 import java.util.List;
 

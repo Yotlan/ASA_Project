@@ -1,8 +1,8 @@
-package fr.asa.M2;
+package fr.asa.M2.Connecteur;
 
 import java.util.List;
 
-public class Connecteur_simple implements IConnecteur{
+public class Connecteur_simple implements IConnecteur {
     private List<Role> roles;
     private Glue glue;
 

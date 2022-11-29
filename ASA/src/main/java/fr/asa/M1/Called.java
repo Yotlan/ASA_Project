@@ -1,10 +1,6 @@
 package fr.asa.M1;
 
-import fr.asa.M2.Connecteur_simple;
-import fr.asa.M2.IConnecteur;
-import fr.asa.M2.Role;
-
-import java.util.List;
+import fr.asa.M2.Connecteur.Role;
 
 public class Called extends Role {
 

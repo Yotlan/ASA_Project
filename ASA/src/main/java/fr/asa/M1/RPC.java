@@ -1,10 +1,9 @@
 package fr.asa.M1;
 
-import fr.asa.M2.Connecteur_simple;
-import fr.asa.M2.IConnecteur;
-import fr.asa.M2.Role;
+import fr.asa.M2.Connecteur.Connecteur_simple;
+import fr.asa.M2.Connecteur.IConnecteur;
+import fr.asa.M2.Connecteur.Role;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class RPC extends Connecteur_simple implements IConnecteur {

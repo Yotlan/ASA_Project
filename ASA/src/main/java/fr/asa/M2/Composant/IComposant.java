@@ -1,4 +1,4 @@
-package fr.asa.M2;
+package fr.asa.M2.Composant;
 
 public interface IComposant {
 

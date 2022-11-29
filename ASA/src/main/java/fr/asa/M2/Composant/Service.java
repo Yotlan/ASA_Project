@@ -1,4 +1,4 @@
-package fr.asa.M2;
+package fr.asa.M2.Composant;
 
 public class Service {
     private String type;
@@ -9,6 +9,10 @@ public class Service {
         }else {
             throw new Exception("service : type error");
         }
+    }
+
+    public String getType() {
+        return type;
     }
 
 }

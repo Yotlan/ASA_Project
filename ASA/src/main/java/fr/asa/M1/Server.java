@@ -1,6 +1,10 @@
 package fr.asa.M1;
 
 import fr.asa.M2.*;
+import fr.asa.M2.Composant.Composant_complexe;
+import fr.asa.M2.Composant.Composant_simple;
+import fr.asa.M2.Composant.IComposant;
+import fr.asa.M2.Port;
 
 import java.util.List;
 
@@ -10,7 +14,7 @@ public class Server extends Composant_complexe implements IComposant {
         boolean check=false;
         //verification que le port ReceiveRequest est bien present
         for (IComposant composant_simple: IComposants){
-            if (composant_simple instanceof  Composant_simple){
+            if (composant_simple instanceof Composant_simple){
                 for (Port port : ((Composant_simple) composant_simple).getPorts()){
                     if (port instanceof ReceiveRequest){
                         check=true;

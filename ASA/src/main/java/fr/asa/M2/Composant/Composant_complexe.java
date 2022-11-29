@@ -1,4 +1,6 @@
-package fr.asa.M2;
+package fr.asa.M2.Composant;
+
+import fr.asa.M2.Configuration;
 
 import java.util.List;
 
