@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd9a755-3bca-4eca-92cf-ab5094aff20d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/AttachementSD1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/AttachementSD2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/AttachementSD3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionDatabaseElements/CDCalled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionDatabaseElements/CDCaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionSecurityElements/CSCalled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionSecurityElements/CSCaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/SecurityDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/SecurityDatabaseElements/SDCalled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/SecurityDatabaseElements/SDCaller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -14,44 +26,48 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M0/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M0/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Called.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Called.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Caller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Caller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/CheckQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/CheckQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/DBQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/DBQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ExternalSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ExternalSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/QueryInterro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/QueryInterro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/RPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/RPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ReceiveRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ReceiveRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SendRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ServerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ServerDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/AttachementCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/AttachementSD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/BindingCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/BindingSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/BindingSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Called.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/RPCElements/Called.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Caller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/RPCElements/Caller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/CheckQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/SecurityManagerElements/CheckQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/DBQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionManagerElements/DBQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ExternalSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionManagerElements/ExternalSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/PortCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/PortSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/PortSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/QueryInterro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/DatabaseElements/QueryInterro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/RPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/RPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ReceiveRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ReceiveRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/SecurityManagerElements/SecurityAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/ConnectionManagerElements/SecurityCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/DatabaseElements/SecurityManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SecurityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetailElements/SecurityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ClientElements/SendRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/ServerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCSElements/ServerElements/ServerDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M1/SimpleCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Attachement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Attachement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Binding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Binding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant_complexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Composant_complexe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Composant_simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Attachement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Attachement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Binding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Binding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Composant_complexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Composant/Composant_complexe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Composant_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Composant/Composant_simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/IComposant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Composant/IComposant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Composant/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur_complexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Connecteur_complexe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Connecteur_simple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Glue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Glue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IComposant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/IComposant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/IConnecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/IConnecteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Port.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Composant/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Connecteur_complexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Connecteur/Connecteur_complexe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Connecteur_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Connecteur/Connecteur_simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Glue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Connecteur/Glue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/IConnecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Connecteur/IConnecteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Connecteur/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Connecteur/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/asa/M2/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/asa/M2/ConfigurationElements/Port.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/m1-part1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/m1-part1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/m1-part2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/m1-part2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/m1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/m1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/m2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/m2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
