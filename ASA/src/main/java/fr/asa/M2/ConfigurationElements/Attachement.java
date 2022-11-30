@@ -5,6 +5,8 @@ import fr.asa.M2.ConfigurationElements.Composant.IComposant;
 import fr.asa.M2.ConfigurationElements.Connecteur.IConnecteur;
 import fr.asa.M2.ConfigurationElements.Connecteur.Role;
 
+import java.util.HashSet;
+
 public class Attachement {
     private Port portRequired;
     private Port portGiven;
@@ -27,10 +29,11 @@ public class Attachement {
             if(checkPG && checkPR) {
                 boolean checkRR = false;
                 boolean checkRG = false;
-                for(IConnecteur connecteur : currentConfig.getIConnecteurs()) {
+                for(IConnecteur connecteur : new HashSet<>(currentConfig.getIConnecteurs())) {
                     if(connecteur.getRoles().contains(roleRequired)) {
                         checkRR = true;
-                    } else if (connecteur.getRoles().contains(roleGiven)) {
+                    }
+                    if (connecteur.getRoles().contains(roleGiven)) {
                         checkRG = true;
                     }
                 }
@@ -41,10 +44,30 @@ public class Attachement {
                     this.roleGiven = roleGiven;
                     this.currentConfig = currentConfig;
                     this.currentConfig.addAttachements(this);
+                }else{
+                    throw new Exception("Attachement LVL3:  Need required port/role AND given port/role");
                 }
+            }else{
+                throw new Exception("Attachement LVL2:  Need required port/role AND given port/role");
             }
         }else{
-            throw new Exception("Attachement :  Need required port/role AND given port/role");
+            throw new Exception("Attachement LVL1:  Need required port/role AND given port/role");
         }
+    }
+
+    public Port getPortRequired() {
+        return this.portRequired;
+    }
+
+    public Port getPortGiven() {
+        return this.portGiven;
+    }
+
+    public Role getRoleRequired() {
+        return this.roleRequired;
+    }
+
+    public Role getRoleGiven() {
+        return this.roleGiven;
     }
 }

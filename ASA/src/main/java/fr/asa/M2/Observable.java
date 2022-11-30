@@ -2,9 +2,7 @@ package fr.asa.M2;
 
 public interface Observable {
 
-    void notifyObservers();
-
-    void postMessage(String msg);
+    void notifyObservers() throws InterruptedException;
 
     String getUpdate(Observer observer);
 
